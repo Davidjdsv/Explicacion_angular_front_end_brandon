@@ -5,11 +5,15 @@ import { AppRoutingModule, RouterModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
 import { FormsModule } from '@angular/forms';
+// import { ComponenteVentasComponent } from './componente-ventas/componente-ventas.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InventarioComponent
+    InventarioComponent,
+    // ComponenteVentasComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
